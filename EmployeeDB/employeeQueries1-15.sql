@@ -111,7 +111,7 @@ WHERE 1=1
 -- 007. List the emps who joined before 1981.
 SELECT *
 FROM employee
-WHERE EXTRACT(YEAR FROM employee.hiredate_dt) < 1981; /* we can use YERAR(employee.hiredate_dt) also or direct comparison  employee.hiredate_dt < 01-01-19981*/
+WHERE EXTRACT(YEAR FROM employee.hiredate_dt) < 1981; /* we can use YEAR(employee.hiredate_dt) also or direct comparison  employee.hiredate_dt < 01-01-19981*/
 
 --Result
 
